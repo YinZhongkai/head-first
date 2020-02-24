@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+Command	command.h	/^class Command$/;"	c
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+GarageDoor	garagedoor.h	/^class GarageDoor$/;"	c
+GarageDoorOpenCommand	garagedooropencommand.h	/^	GarageDoorOpenCommand(const GarageDoor &garageDoor)$/;"	f	class:GarageDoorOpenCommand
+GarageDoorOpenCommand	garagedooropencommand.h	/^class GarageDoorOpenCommand: public Command$/;"	c
+Light	light.h	/^class Light$/;"	c
+LightOffCommand	lightoffcommand.h	/^class LightOffCommand: public Command$/;"	c
+LightOffCommmand	lightoffcommand.h	/^	LightOffCommmand(const Light &ight)$/;"	f	class:LightOffCommand
+LightOnCommand	lightoncommand.h	/^	LightOnCommand(const Light &light)$/;"	f	class:LightOnCommand
+LightOnCommand	lightoncommand.h	/^class LightOnCommand: public Command$/;"	c
+NoCommand	nocommand.h	/^class NoCommand: public Command$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+RemonteControl	remotecontrol.h	/^	RemonteControl()$/;"	f	class:RemoteControl
+RemoteControl	remotecontrol.h	/^class RemoteControl$/;"	c
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+SimpleRemoteControl	simpleremotecontrol.h	/^	SimpleRemoteControl() $/;"	f	class:SimpleRemoteControl
+SimpleRemoteControl	simpleremotecontrol.h	/^class SimpleRemoteControl$/;"	c
+TARGET	Makefile	/^TARGET = command$/;"	m
+__COMMOND_H__	command.h	/^#define __COMMOND_H__ /;"	d
+__GARAGE_DOOR_H__	garagedoor.h	/^#define __GARAGE_DOOR_H__$/;"	d
+__GARAGE_DOOR_OPEN_COMMAND_H__	garagedooropencommand.h	/^#define __GARAGE_DOOR_OPEN_COMMAND_H__$/;"	d
+__LIGHT_H__	light.h	/^#define __LIGHT_H__ /;"	d
+__LIGHT_OFF_COMMAND_H__	lightoffcommand.h	/^#define __LIGHT_OFF_COMMAND_H__$/;"	d
+__LIGHT_ON_COMMOND_H	lightoncommand.h	/^#define __LIGHT_ON_COMMOND_H$/;"	d
+__NO_COMMAND_H__	nocommand.h	/^#define __NO_COMMAND_H__$/;"	d
+__REMOTE_CONTROL_H__	remotecontrol.h	/^#define __REMOTE_CONTROL_H__$/;"	d
+__SIMPLE_REMOTE_CONTROL_H__	simpleremotecontrol.h	/^#define __SIMPLE_REMOTE_CONTROL_H__$/;"	d
+buttonWasPress	simpleremotecontrol.h	/^	void buttonWasPress()$/;"	f	class:SimpleRemoteControl
+down	garagedoor.h	/^	void down()$/;"	f	class:GarageDoor
+execute	garagedooropencommand.h	/^	void execute()$/;"	f	class:GarageDoorOpenCommand
+execute	lightoffcommand.h	/^	void execute()$/;"	f	class:LightOffCommand
+execute	lightoncommand.h	/^	void execute()$/;"	f	class:LightOnCommand
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+garageDoor	garagedooropencommand.h	/^	GarageDoor garageDoor;$/;"	m	class:GarageDoorOpenCommand
+light	lightoffcommand.h	/^	Light light;$/;"	m	class:LightOffCommand
+light	lightoncommand.h	/^	Light light;$/;"	m	class:LightOnCommand
+lightOff	garagedoor.h	/^	void lightOff()$/;"	f	class:GarageDoor
+lightOn	garagedoor.h	/^	void lightOn()$/;"	f	class:GarageDoor
+main	main.cpp	/^int main(void)$/;"	f
+off	light.h	/^	void off() { cout << "light is off" << endl; }$/;"	f	class:Light
+offButtonWasPushed	remotecontrol.h	/^	void offButtonWasPushed(int slot)$/;"	f	class:RemoteControl
+offCommands	remotecontrol.h	/^	Command *offCommands;$/;"	m	class:RemoteControl
+on	light.h	/^	void on() { cout << "light is on" << endl; }$/;"	f	class:Light
+onButtonWasPushed	remotecontrol.h	/^	void onButtonWasPushed(int slot)$/;"	f	class:RemoteControl
+onCommands	remotecontrol.h	/^	Command *onCommands;$/;"	m	class:RemoteControl
+open	garagedoor.h	/^	void open()$/;"	f	class:GarageDoor
+setCommand	remotecontrol.h	/^	void setCommand(int slot, Command onCommand, Command offCommand)$/;"	f	class:RemoteControl
+setCommand	simpleremotecontrol.h	/^	void setCommand(Command *command)$/;"	f	class:SimpleRemoteControl
+slot	simpleremotecontrol.h	/^	Command *slot;$/;"	m	class:SimpleRemoteControl
+sources	Makefile	/^sources := $(PWD)$/;"	m
+stop	garagedoor.h	/^	void stop()$/;"	f	class:GarageDoor
+toString	remotecontrol.h	/^	string toString()$/;"	f	class:RemoteControl
+up	garagedoor.h	/^	void up()$/;"	f	class:GarageDoor

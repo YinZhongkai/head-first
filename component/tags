@@ -1,0 +1,53 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+Menu	Menu.h	/^	Menu(string name, string description)$/;"	f	class:Menu
+Menu	Menu.h	/^class Menu: public MenuComponent$/;"	c
+MenuComponent	menuComponent.h	/^class MenuComponent$/;"	c
+MenuItem	MenuItem.h	/^	MenuItem(string name, string description, bool vegetarian, double price)$/;"	f	class:MenuItem
+MenuItem	MenuItem.h	/^class MenuItem: public MenuComponent$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+TARGET	Makefile	/^TARGET = component$/;"	m
+Waitress	Waitress.h	/^	Waitress(MenuComponent *allMenus)$/;"	f	class:Waitress
+Waitress	Waitress.h	/^class Waitress$/;"	c
+__MENU_COMPONENT_H__	menuComponent.h	/^#define __MENU_COMPONENT_H__$/;"	d
+__MENU_H__	Menu.h	/^#define __MENU_H__$/;"	d
+__MENU_ITEM_H__	MenuItem.h	/^#define __MENU_ITEM_H__$/;"	d
+__WAITRESS_H__	Waitress.h	/^#define __WAITRESS_H__$/;"	d
+add	Menu.h	/^	void add(MenuComponent *menuComponet)$/;"	f	class:Menu
+add	menuComponent.h	/^	virtual void add(MenuComponent *menuComponent)$/;"	f	class:MenuComponent
+allMenus	Waitress.h	/^	MenuComponent *allMenus;$/;"	m	class:Waitress
+description	Menu.h	/^	string description;$/;"	m	class:Menu
+description	MenuItem.h	/^	string description;$/;"	m	class:MenuItem
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getChild	Menu.h	/^	MenuComponent *getChild(int i)$/;"	f	class:Menu
+getChild	menuComponent.h	/^	virtual MenuComponent *getChild(int i)$/;"	f	class:MenuComponent
+getDescription	Menu.h	/^	string getDescription()$/;"	f	class:Menu
+getDescription	MenuItem.h	/^	string getDescription()$/;"	f	class:MenuItem
+getDescription	menuComponent.h	/^	virtual string getDescription()$/;"	f	class:MenuComponent
+getName	Menu.h	/^	string getName()$/;"	f	class:Menu
+getName	MenuItem.h	/^	string getName()$/;"	f	class:MenuItem
+getName	menuComponent.h	/^	virtual string getName()$/;"	f	class:MenuComponent
+getPrice	MenuItem.h	/^	double getPrice()$/;"	f	class:MenuItem
+getPrice	menuComponent.h	/^	virtual double getPrice()$/;"	f	class:MenuComponent
+isVegetarian	MenuItem.h	/^	bool isVegetarian()$/;"	f	class:MenuItem
+isVegetarian	menuComponent.h	/^	virtual bool isVegetarian()$/;"	f	class:MenuComponent
+main	MenuTestDrive.cpp	/^int main(void)$/;"	f
+menuComponets	Menu.h	/^	vector<MenuComponent *> menuComponets;$/;"	m	class:Menu
+name	Menu.h	/^	string name;$/;"	m	class:Menu
+name	MenuItem.h	/^	string name;$/;"	m	class:MenuItem
+price	MenuItem.h	/^	double price;$/;"	m	class:MenuItem
+print	Menu.h	/^	void print()$/;"	f	class:Menu
+print	MenuItem.h	/^	void print()$/;"	f	class:MenuItem
+print	menuComponent.h	/^	virtual void print()$/;"	f	class:MenuComponent
+printMenu	Waitress.h	/^	void printMenu()$/;"	f	class:Waitress
+remove	Menu.h	/^	void remove(MenuComponent *menuComponet)$/;"	f	class:Menu
+remove	menuComponent.h	/^	virtual void remove(MenuComponent *menuComponent)$/;"	f	class:MenuComponent
+sources	Makefile	/^sources := $(PWD)$/;"	m
+vegetarian	MenuItem.h	/^	bool vegetarian;$/;"	m	class:MenuItem

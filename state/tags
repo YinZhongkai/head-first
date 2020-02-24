@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+GumballMachine	GumballMachine.h	/^	GumballMachine(int numberGumBalls)$/;"	f	class:GumballMachine
+GumballMachine	GumballMachine.h	/^class GumballMachine$/;"	c
+HasSoldState	HasQuarterState.h	/^	HasSoldState(GumballMachine *gumballMachine)$/;"	f	class:HasSoldState
+HasSoldState	HasQuarterState.h	/^class HasSoldState: public State$/;"	c
+NoSoldState	NoQuartarState.h	/^	NoSoldState(GumballMachine *gumballMachine)$/;"	f	class:NoSoldState
+NoSoldState	NoQuartarState.h	/^class NoSoldState: public State$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+SoldOutState	SoldOutState.h	/^class SoldOutState: public State$/;"	c
+SoldState	SoldState.h	/^	SoldState(GumballMachine *gumballMachine)$/;"	f	class:SoldState
+SoldState	SoldState.h	/^class SoldState: public State$/;"	c
+State	State.h	/^class State$/;"	c
+TARGET	Makefile	/^TARGET = state$/;"	m
+__GUMBALLMACHINE_H__	GumballMachine.h	/^#define __GUMBALLMACHINE_H__$/;"	d
+__HAS_QUARTER_STATE_H__	HasQuarterState.h	/^#define __HAS_QUARTER_STATE_H__$/;"	d
+__NO_QUARTER_STATE_H__	NoQuartarState.h	/^#define __NO_QUARTER_STATE_H__$/;"	d
+__SOLD_OUT_STATE_H__	SoldOutState.h	/^#define __SOLD_OUT_STATE_H__$/;"	d
+__SOLD_STATE_H__	SoldState.h	/^#define __SOLD_STATE_H__$/;"	d
+__STATE_H__	State.h	/^#define __STATE_H__$/;"	d
+count	GumballMachine.h	/^	int count;$/;"	m	class:GumballMachine
+dispense	HasQuarterState.h	/^	void dispense()$/;"	f	class:HasSoldState
+dispense	NoQuartarState.h	/^	void dispense()$/;"	f	class:NoSoldState
+dispense	SoldOutState.h	/^	void  dispense()$/;"	f	class:SoldOutState
+dispense	SoldState.h	/^	void dispense()$/;"	f	class:SoldState
+ejectQuarter	GumballMachine.h	/^	void ejectQuarter()$/;"	f	class:GumballMachine
+ejectQuarter	HasQuarterState.h	/^	void ejectQuarter()$/;"	f	class:HasSoldState
+ejectQuarter	NoQuartarState.h	/^	void ejectQuarter()$/;"	f	class:NoSoldState
+ejectQuarter	SoldOutState.h	/^	void ejectQuarter()$/;"	f	class:SoldOutState
+ejectQuarter	SoldState.h	/^	void ejectQuarter()$/;"	f	class:SoldState
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getCount	GumballMachine.h	/^	int getCount()$/;"	f	class:GumballMachine
+getHasQuarterState	GumballMachine.h	/^	State *getHasQuarterState()$/;"	f	class:GumballMachine
+getNoQuarterState	GumballMachine.h	/^	State *getNoQuarterState()$/;"	f	class:GumballMachine
+getSoldOutState	GumballMachine.h	/^	State *getSoldOutState()$/;"	f	class:GumballMachine
+getSoldSate	GumballMachine.h	/^	State *getSoldSate()$/;"	f	class:GumballMachine
+gumballMachine	HasQuarterState.h	/^	GumballMachine *gumballMachine;$/;"	m	class:HasSoldState
+gumballMachine	NoQuartarState.h	/^	GumballMachine *gumballMachine;$/;"	m	class:NoSoldState
+gumballMachine	SoldState.h	/^	GumballMachine *gumballMachine;$/;"	m	class:SoldState
+hasQuarterState	GumballMachine.h	/^	State *hasQuarterState;$/;"	m	class:GumballMachine
+insertQuarter	GumballMachine.h	/^	void insertQuarter()$/;"	f	class:GumballMachine
+insertQuarter	HasQuarterState.h	/^	void insertQuarter()$/;"	f	class:HasSoldState
+insertQuarter	NoQuartarState.h	/^	void insertQuarter()$/;"	f	class:NoSoldState
+insertQuarter	SoldOutState.h	/^	void  insertQuarter()$/;"	f	class:SoldOutState
+insertQuarter	SoldState.h	/^	void insertQuarter()$/;"	f	class:SoldState
+noQuarterState	GumballMachine.h	/^	State *noQuarterState;$/;"	m	class:GumballMachine
+releaseBall	GumballMachine.h	/^	void releaseBall()$/;"	f	class:GumballMachine
+setState	GumballMachine.h	/^	void setState(State *state)$/;"	f	class:GumballMachine
+soldOutState	GumballMachine.h	/^	State *soldOutState;$/;"	m	class:GumballMachine
+soldState	GumballMachine.h	/^	State *soldState;$/;"	m	class:GumballMachine
+sources	Makefile	/^sources := $(PWD)$/;"	m
+state	GumballMachine.h	/^	State *state;$/;"	m	class:GumballMachine
+turnCrank	GumballMachine.h	/^	void turnCrank()$/;"	f	class:GumballMachine
+turnCrank	HasQuarterState.h	/^	void turnCrank()$/;"	f	class:HasSoldState
+turnCrank	NoQuartarState.h	/^	void turnCrank()$/;"	f	class:NoSoldState
+turnCrank	SoldOutState.h	/^	void  turnCrank()$/;"	f	class:SoldOutState
+turnCrank	SoldState.h	/^	void turnCrank()$/;"	f	class:SoldState

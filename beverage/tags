@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Beverage	beverage.h	/^	Beverage() { description = "Unknow Beverage"; }$/;"	f	class:Beverage
+Beverage	beverage.h	/^class Beverage$/;"	c
+CC	Makefile	/^CC = c++$/;"	m
+CondimentDecorator	condimentdecorator.h	/^class CondimentDecorator: public Beverage$/;"	c
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+DarkRoast	darkroast.h	/^	DarkRoast() { description = "DarkRoast"; }$/;"	f	class:DarkRoast
+DarkRoast	darkroast.h	/^class DarkRoast: public Beverage$/;"	c
+Decaf	decaf.h	/^	Decaf() { description = "Decaf"; }$/;"	f	class:Decaf
+Decaf	decaf.h	/^class Decaf: public Beverage$/;"	c
+Expresso	expresso.h	/^	Expresso() { description = "Expresso"; }$/;"	f	class:Expresso
+Expresso	expresso.h	/^class Expresso: public Beverage$/;"	c
+HouseBlend	houseblend.h	/^	HouseBlend() { description = "HouseBlend"; }$/;"	f	class:HouseBlend
+HouseBlend	houseblend.h	/^class HouseBlend: public Beverage$/;"	c
+Milk	milk.h	/^	Milk(Beverage *beverage) { this->beverage = beverage; }$/;"	f	class:Milk
+Milk	milk.h	/^class Milk: public CondimentDecorator$/;"	c
+Mocha	mocha.h	/^	Mocha(Beverage *beverage) { this->beverage = beverage; }$/;"	f	class:Mocha
+Mocha	mocha.h	/^class Mocha: public CondimentDecorator$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+Soy	soy.h	/^	Soy(Beverage *beverage) { this->beverage = beverage; }$/;"	f	class:Soy
+Soy	soy.h	/^class Soy: public CondimentDecorator$/;"	c
+TARGET	Makefile	/^TARGET = beverage$/;"	m
+Whip	whip.h	/^	Whip(Beverage *beverage) { this->beverage = beverage; }$/;"	f	class:Whip
+Whip	whip.h	/^class Whip: public CondimentDecorator$/;"	c
+__BEVERAGE_H__	beverage.h	/^#define __BEVERAGE_H__$/;"	d
+__CONDIMENT_DECORATOR_H__	condimentdecorator.h	/^#define __CONDIMENT_DECORATOR_H__$/;"	d
+__EXPRESSO_H__	darkroast.h	/^#define __EXPRESSO_H__$/;"	d
+__EXPRESSO_H__	decaf.h	/^#define __EXPRESSO_H__$/;"	d
+__EXPRESSO_H__	expresso.h	/^#define __EXPRESSO_H__$/;"	d
+__EXPRESSO_H__	houseblend.h	/^#define __EXPRESSO_H__$/;"	d
+__MOCHA_H__	milk.h	/^#define __MOCHA_H__$/;"	d
+__MOCHA_H__	mocha.h	/^#define __MOCHA_H__$/;"	d
+__MOCHA_H__	soy.h	/^#define __MOCHA_H__$/;"	d
+__MOCHA_H__	whip.h	/^#define __MOCHA_H__$/;"	d
+beverage	milk.h	/^	Beverage *beverage;$/;"	m	class:Milk
+beverage	mocha.h	/^	Beverage *beverage;$/;"	m	class:Mocha
+beverage	soy.h	/^	Beverage *beverage;$/;"	m	class:Soy
+beverage	whip.h	/^	Beverage *beverage;$/;"	m	class:Whip
+cost	darkroast.h	/^	double cost() { return 0.99; }$/;"	f	class:DarkRoast
+cost	decaf.h	/^	double cost() { return 1.05; }$/;"	f	class:Decaf
+cost	expresso.h	/^	double cost() { return 1.99; }$/;"	f	class:Expresso
+cost	houseblend.h	/^	double cost() { return 0.89; }$/;"	f	class:HouseBlend
+cost	milk.h	/^	double cost() { return 0.10 + beverage->cost(); }$/;"	f	class:Milk
+cost	mocha.h	/^	double cost() { return 0.20 + beverage->cost(); }$/;"	f	class:Mocha
+cost	soy.h	/^	double cost() { return 0.15 + beverage->cost(); }$/;"	f	class:Soy
+cost	whip.h	/^	double cost() { return 0.10 + beverage->cost(); }$/;"	f	class:Whip
+description	beverage.h	/^	string description;$/;"	m	class:Beverage
+display	mocha.h	/^	string display() { return "mocha"; } $/;"	f	class:Mocha
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getDescription	beverage.h	/^	string getDescription() { return description; }$/;"	f	class:Beverage
+getDescription	milk.h	/^	string getDescription() { return beverage->getDescription() + ", Milk"; }$/;"	f	class:Milk
+getDescription	mocha.h	/^	string getDescription() { return beverage->getDescription() + ", Mocha"; }$/;"	f	class:Mocha
+getDescription	soy.h	/^	string getDescription() { return beverage->getDescription() + ", Soy"; }$/;"	f	class:Soy
+getDescription	whip.h	/^	string getDescription() { return beverage->getDescription() + ", Whip"; }$/;"	f	class:Whip
+main	main.cpp	/^int main(void)$/;"	f
+sources	Makefile	/^sources := $(PWD)$/;"	m

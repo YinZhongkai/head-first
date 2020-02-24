@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+Caffe	caffe.h	/^class Caffe: public CaffeineBeverage$/;"	c
+CaffeineBeverage	caffeinebeverage.h	/^class CaffeineBeverage$/;"	c
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+TARGET	Makefile	/^TARGET = template$/;"	m
+Tea	tea.h	/^class Tea: public CaffeineBeverage$/;"	c
+__CAFFEINE_BEVERAGE_H__	caffeinebeverage.h	/^#define __CAFFEINE_BEVERAGE_H__$/;"	d
+__CAFFE_H__	caffe.h	/^#define __CAFFE_H__$/;"	d
+__TEA_H__	tea.h	/^#define __TEA_H__$/;"	d
+addCondiments	caffe.h	/^	void addCondiments()$/;"	f	class:Caffe
+addCondiments	tea.h	/^	void addCondiments()$/;"	f	class:Tea
+boilWater	caffeinebeverage.h	/^	void boilWater()$/;"	f	class:CaffeineBeverage
+brew	caffe.h	/^	void brew()$/;"	f	class:Caffe
+brew	tea.h	/^	void brew()$/;"	f	class:Tea
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+main	main.cpp	/^int main(void)$/;"	f
+pourInCup	caffeinebeverage.h	/^	virtual void pourInCup()$/;"	f	class:CaffeineBeverage
+sources	Makefile	/^sources := $(PWD)$/;"	m

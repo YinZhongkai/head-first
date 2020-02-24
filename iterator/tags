@@ -1,0 +1,63 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+DinerMenu	dinermenu.h	/^	DinerMenu()$/;"	f	class:DinerMenu
+DinerMenu	dinermenu.h	/^class DinerMenu$/;"	c
+DinerMenuIterator	dinermenuiterator.h	/^	DinerMenuIterator(MenuItem **menuItem)$/;"	f	class:DinerMenuIterator
+DinerMenuIterator	dinermenuiterator.h	/^class DinerMenuIterator: public Iterator$/;"	c
+Iterator	iterator.h	/^class Iterator$/;"	c
+MAX_ITEMS	dinermenu.h	/^#define MAX_ITEMS	/;"	d
+MenuItem	menuitem.h	/^	MenuItem(string name, string description, bool vegetarian, double price)$/;"	f	class:MenuItem
+MenuItem	menuitem.h	/^class MenuItem$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+PancakeHouseMenu	pancakehousemenu.h	/^	PancakeHouseMenu()$/;"	f	class:PancakeHouseMenu
+PancakeHouseMenu	pancakehousemenu.h	/^class PancakeHouseMenu$/;"	c
+PancakeHouseMenuIterator	pancakehousemenuiterator.h	/^	PancakeHouseMenuIterator(vector<MenuItem *> &menuItems)$/;"	f	class:PancakeHouseMenuIterator
+PancakeHouseMenuIterator	pancakehousemenuiterator.h	/^class PancakeHouseMenuIterator: public Iterator$/;"	c
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+TARGET	Makefile	/^TARGET = iterator$/;"	m
+Waitress	waitress.h	/^	public Waitress(PancakeHouseMenu *pancakeHouseMenu, DinerMenu *dinerMenu)$/;"	f	class:Waitress
+Waitress	waitress.h	/^class Waitress$/;"	c
+__DINER_MENU_H__	dinermenu.h	/^#define __DINER_MENU_H__$/;"	d
+__DINER_MENU_ITERATOR_H__	dinermenuiterator.h	/^#define __DINER_MENU_ITERATOR_H__$/;"	d
+__ITERATOR_H__	iterator.h	/^#define __ITERATOR_H__$/;"	d
+__MENU_ITEM_H__	menuitem.h	/^#define __MENU_ITEM_H__$/;"	d
+__PANCAKE_HOUSE_MENU_H__	pancakehousemenu.h	/^#define __PANCAKE_HOUSE_MENU_H__$/;"	d
+__PANCAKE_HOUSE_MENU_ITERATOR_H__	pancakehousemenuiterator.h	/^#define __PANCAKE_HOUSE_MENU_ITERATOR_H__$/;"	d
+__WAITRESS_H__	waitress.h	/^#define __WAITRESS_H__ /;"	d
+addItem	dinermenu.h	/^	void addItem(string name, string description, bool vegetarian, double price)$/;"	f	class:DinerMenu
+addItem	pancakehousemenu.h	/^	void addItem(string name, string description, bool vegetarian, double price)$/;"	f	class:PancakeHouseMenu
+createIterator	pancakehousemenu.h	/^	Iterator *createIterator()$/;"	f	class:PancakeHouseMenu
+createItertor	dinermenu.h	/^	Iterator *createItertor()$/;"	f	class:DinerMenu
+description	menuitem.h	/^	string description;$/;"	m	class:MenuItem
+dinerMenu	waitress.h	/^	DinerMenu *dinerMenu;$/;"	m	class:Waitress
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getDescription	menuitem.h	/^	string getDescription()$/;"	f	class:MenuItem
+getName	menuitem.h	/^	string getName()$/;"	f	class:MenuItem
+getPrice	menuitem.h	/^	double getPrice()$/;"	f	class:MenuItem
+getVegetarian	menuitem.h	/^	bool getVegetarian()$/;"	f	class:MenuItem
+hasNext	dinermenuiterator.h	/^	bool hasNext()$/;"	f	class:DinerMenuIterator
+hasNext	pancakehousemenuiterator.h	/^	bool hasNext()$/;"	f	class:PancakeHouseMenuIterator
+main	main.cpp	/^int main(void)$/;"	f
+menuItem	dinermenuiterator.h	/^	MenuItem **menuItem;$/;"	m	class:DinerMenuIterator
+menuItems	dinermenu.h	/^	MenuItem *menuItems[MAX_ITEMS];$/;"	m	class:DinerMenu
+menuItems	pancakehousemenu.h	/^	vector<MenuItem *> menuItems;$/;"	m	class:PancakeHouseMenu
+menuItems	pancakehousemenuiterator.h	/^	vector<MenuItem *> menuItems;$/;"	m	class:PancakeHouseMenuIterator
+name	menuitem.h	/^	string name;$/;"	m	class:MenuItem
+next	dinermenuiterator.h	/^	MenuItem *next()$/;"	f	class:DinerMenuIterator
+next	pancakehousemenuiterator.h	/^	MenuItem *next()$/;"	f	class:PancakeHouseMenuIterator
+numberOfItems	dinermenu.h	/^	int numberOfItems;$/;"	m	class:DinerMenu
+pancakeHouseMenu	waitress.h	/^	PancakeHouseMenu *pancakeHouseMenu;$/;"	m	class:Waitress
+position	dinermenuiterator.h	/^	int position;$/;"	m	class:DinerMenuIterator
+position	pancakehousemenuiterator.h	/^	int position;$/;"	m	class:PancakeHouseMenuIterator
+price	menuitem.h	/^	double price;$/;"	m	class:MenuItem
+printMenu	waitress.h	/^	void printMenu()$/;"	f	class:Waitress
+printMenu	waitress.h	/^	void printMenu(Iterator iterator)$/;"	f	class:Waitress
+sources	Makefile	/^sources := $(PWD)$/;"	m
+vegetarian	menuitem.h	/^	bool vegetarian;$/;"	m	class:MenuItem
+~DinerMenu	dinermenu.h	/^	~DinerMenu()$/;"	f	class:DinerMenu

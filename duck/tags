@@ -1,0 +1,33 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Duck	duck.cpp	/^Duck::Duck()$/;"	f	class:Duck
+Duck	duck.h	/^class Duck$/;"	c
+FlyBehavior	flybehavior.h	/^class FlyBehavior$/;"	c
+FlyNoWay	flybehavior.h	/^class FlyNoWay: public FlyBehavior$/;"	c
+FlyWithWings	flybehavior.h	/^class FlyWithWings: public FlyBehavior$/;"	c
+MuteQuack	quackbehavior.h	/^class MuteQuack: public QuackBehavior$/;"	c
+OBJS	Makefile	/^OBJS = main.o duck.o flybehavior.o quackbehavior.o$/;"	m
+Quack	quackbehavior.h	/^class Quack: public QuackBehavior$/;"	c
+QuackBehavior	quackbehavior.h	/^class QuackBehavior$/;"	c
+Squeak	quackbehavior.h	/^class Squeak: public QuackBehavior$/;"	c
+__DUCK_H__	duck.h	/^#define __DUCK_H__$/;"	d
+__FLYBEHAVIOR_H__	flybehavior.h	/^#define __FLYBEHAVIOR_H__ /;"	d
+__QUACKBEHAVIOR_H__	quackbehavior.h	/^#define __QUACKBEHAVIOR_H__$/;"	d
+display	duck.cpp	/^void Duck::display()$/;"	f	class:Duck
+fly	flybehavior.cpp	/^void FlyBehavior::fly()$/;"	f	class:FlyBehavior
+fly	flybehavior.cpp	/^void FlyNoWay::fly()$/;"	f	class:FlyNoWay
+fly	flybehavior.cpp	/^void FlyWithWings::fly()$/;"	f	class:FlyWithWings
+flyBehavior	duck.h	/^	FlyBehavior *flyBehavior;$/;"	m	class:Duck
+main	main.cpp	/^int main(void)$/;"	f
+performFly	duck.cpp	/^void Duck::performFly()$/;"	f	class:Duck
+performQuack	duck.cpp	/^void Duck::performQuack()$/;"	f	class:Duck
+quack	quackbehavior.cpp	/^void MuteQuack::quack()$/;"	f	class:MuteQuack
+quack	quackbehavior.cpp	/^void Quack::quack()$/;"	f	class:Quack
+quack	quackbehavior.cpp	/^void QuackBehavior::quack()$/;"	f	class:QuackBehavior
+quack	quackbehavior.cpp	/^void Squeak::quack()$/;"	f	class:Squeak
+quackBehavior	duck.h	/^	QuackBehavior *quackBehavior;$/;"	m	class:Duck
+~Duck	duck.cpp	/^Duck::~Duck()$/;"	f	class:Duck

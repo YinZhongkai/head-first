@@ -1,0 +1,109 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AbstructDuckFactory	AbstractDuckFactory.h	/^class AbstructDuckFactory$/;"	c
+CC	Makefile	/^CC = c++$/;"	m
+CountingDuckFactory	CountingDuckFactory.h	/^class CountingDuckFactory: public AbstructDuckFactory$/;"	c
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+DuckCall	DuckCall.h	/^	DuckCall()$/;"	f	class:DuckCall
+DuckCall	DuckCall.h	/^class DuckCall: public Quackable$/;"	c
+DuckFactory	DuckFactory.h	/^class DuckFactory: public AbstructDuckFactory$/;"	c
+DuckSimulator	DuckSimulator.h	/^class DuckSimulator$/;"	c
+Flock	Flock.h	/^class Flock: public Quackable$/;"	c
+Goose	Goose.h	/^class Goose$/;"	c
+GooseAdapter	GooseAdapter.h	/^	GooseAdapter(Goose *goose)$/;"	f	class:GooseAdapter
+GooseAdapter	GooseAdapter.h	/^class GooseAdapter: public Quackable$/;"	c
+MallarDuck	MallarDuck.h	/^	MallarDuck()$/;"	f	class:MallarDuck
+MallarDuck	MallarDuck.h	/^class MallarDuck: public Quackable$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+Observable	Observable.h	/^	void Observable(QuackObservable *duck)$/;"	f	class:Observable
+Observable	Observable.h	/^class Observable: public QuackObservable$/;"	c
+Observer	Observer.h	/^class Observer$/;"	c
+QuackCount	QuackCount.h	/^	QuackCount(Quackable *duck)$/;"	f	class:QuackCount
+QuackCount	QuackCount.h	/^class QuackCount: public Quackable$/;"	c
+QuackObservable	QuackObservable.h	/^class QuackObservable$/;"	c
+Quackable	Quackable.h	/^class Quackable: public QuackObservable$/;"	c
+Quackologist	Quackologist.h	/^class Quackologist: public Observer$/;"	c
+RedHeadDuck	RedHeadDuck.h	/^	RedHeadDuck()$/;"	f	class:RedHeadDuck
+RedHeadDuck	RedHeadDuck.h	/^class RedHeadDuck: public Quackable$/;"	c
+RubberDuck	RubberDuck.h	/^	RubberDuck()$/;"	f	class:RubberDuck
+RubberDuck	RubberDuck.h	/^class RubberDuck: public Quackable$/;"	c
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+TARGET	Makefile	/^TARGET = complex$/;"	m
+__ABSTRACT_DUCK_FACTORY_H__	AbstractDuckFactory.h	/^#define __ABSTRACT_DUCK_FACTORY_H__$/;"	d
+__COUNTING_DUCK_FACTORY_H__	CountingDuckFactory.h	/^#define __COUNTING_DUCK_FACTORY_H__$/;"	d
+__DUCK_CALL_H__	DuckCall.h	/^#define __DUCK_CALL_H__$/;"	d
+__DUCK_FACTORY_H__	DuckFactory.h	/^#define __DUCK_FACTORY_H__$/;"	d
+__DUCK_SIMULATOR_H__	DuckSimulator.h	/^#define __DUCK_SIMULATOR_H__$/;"	d
+__FLOCK_H__	Flock.h	/^#define __FLOCK_H__$/;"	d
+__GOOSE_ADAPTER_H__	GooseAdapter.h	/^#define __GOOSE_ADAPTER_H__$/;"	d
+__GOOSE_H__	Goose.h	/^#define __GOOSE_H__$/;"	d
+__MALLAR_DUCK_H__	MallarDuck.h	/^#define __MALLAR_DUCK_H__$/;"	d
+__OBSERVABLE_H__	Observable.h	/^#define __OBSERVABLE_H__$/;"	d
+__OBSERVER_H__	Observer.h	/^#define __OBSERVER_H__$/;"	d
+__QUACKABLE_H__	Quackable.h	/^#define __QUACKABLE_H__$/;"	d
+__QUACKOLOGIST_H__	Quackologist.h	/^#define __QUACKOLOGIST_H__$/;"	d
+__QUACK_COUNT_H__	QuackCount.h	/^#define __QUACK_COUNT_H__$/;"	d
+__QUACK_OBSERVER_H__	QuackObservable.h	/^#define __QUACK_OBSERVER_H__$/;"	d
+__RED_HEAD_DUCK_H__	RedHeadDuck.h	/^#define __RED_HEAD_DUCK_H__$/;"	d
+__RUBBER_DUCK_H__	RubberDuck.h	/^#define __RUBBER_DUCK_H__$/;"	d
+add	Flock.h	/^	void add(Quackable *quacker)$/;"	f	class:Flock
+createDuckCall	CountingDuckFactory.h	/^	Quackable *createDuckCall()$/;"	f	class:CountingDuckFactory
+createDuckCall	DuckFactory.h	/^	Quackable *createDuckCall()$/;"	f	class:DuckFactory
+createGooseAdapter	CountingDuckFactory.h	/^	Quackable *createGooseAdapter()$/;"	f	class:CountingDuckFactory
+createGooseAdapter	DuckFactory.h	/^	Quackable *createGooseAdapter()$/;"	f	class:DuckFactory
+createMallerdDuck	CountingDuckFactory.h	/^	Quackable *createMallerdDuck()$/;"	f	class:CountingDuckFactory
+createMallerdDuck	DuckFactory.h	/^	Quackable *createMallerdDuck()$/;"	f	class:DuckFactory
+createRedheadDuck	CountingDuckFactory.h	/^	Quackable *createRedheadDuck()$/;"	f	class:CountingDuckFactory
+createRedheadDuck	DuckFactory.h	/^	Quackable *createRedheadDuck()$/;"	f	class:DuckFactory
+createRubberDuck	CountingDuckFactory.h	/^	Quackable *createRubberDuck()$/;"	f	class:CountingDuckFactory
+createRubberDuck	DuckFactory.h	/^	Quackable *createRubberDuck()$/;"	f	class:DuckFactory
+duck	Observable.h	/^	QuackObservable *duck;$/;"	m	class:Observable
+duck	Observer.h	/^	void update(QuackObservable *duck) = 0;$/;"	m	class:Observer
+duck	QuackCount.h	/^	Quackable *duck;$/;"	m	class:QuackCount
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getNumberOfQuacks	QuackCount.h	/^	static int getNumberOfQuacks()$/;"	f	class:QuackCount
+goose	GooseAdapter.h	/^	Goose *goose;$/;"	m	class:GooseAdapter
+honk	Goose.h	/^	void honk()$/;"	f	class:Goose
+main	main.cpp	/^int main(void)$/;"	f
+notifyObservers	DuckCall.h	/^	void notifyObservers()$/;"	f	class:DuckCall
+notifyObservers	Flock.h	/^	void notifyObservers()$/;"	f	class:Flock
+notifyObservers	GooseAdapter.h	/^	void notifyObservers()$/;"	f	class:GooseAdapter
+notifyObservers	MallarDuck.h	/^	void notifyObservers()$/;"	f	class:MallarDuck
+notifyObservers	Observable.h	/^	void notifyObservers()$/;"	f	class:Observable
+notifyObservers	QuackCount.h	/^	void notifyObservers()$/;"	f	class:QuackCount
+notifyObservers	RedHeadDuck.h	/^	voi notifyObservers()$/;"	f	class:RedHeadDuck
+notifyObservers	RubberDuck.h	/^	void notifyObservers()$/;"	f	class:RubberDuck
+numberOfQuacks	QuackCount.h	/^	static int numberOfQuacks;			$/;"	m	class:QuackCount
+numberOfQuacks	QuackCount.h	/^int QuackCount::numberOfQuacks = 0;$/;"	m	class:QuackCount
+observable	DuckCall.h	/^	Observable *observable;$/;"	m	class:DuckCall
+observable	GooseAdapter.h	/^	Observable *observable;$/;"	m	class:GooseAdapter
+observable	MallarDuck.h	/^	Observable *observable;$/;"	m	class:MallarDuck
+observable	QuackCount.h	/^	Observable *observable;$/;"	m	class:QuackCount
+observable	RedHeadDuck.h	/^	Observable *observable;$/;"	m	class:RedHeadDuck
+observable	RubberDuck.h	/^	Observable *observable;$/;"	m	class:RubberDuck
+observers	Observable.h	/^	list<Observer *> observers;$/;"	m	class:Observable
+quack	DuckCall.h	/^	void quack()$/;"	f	class:DuckCall
+quack	Flock.h	/^	void quack()$/;"	f	class:Flock
+quack	GooseAdapter.h	/^	void quack()$/;"	f	class:GooseAdapter
+quack	MallarDuck.h	/^	void quack()$/;"	f	class:MallarDuck
+quack	QuackCount.h	/^	void quack()$/;"	f	class:QuackCount
+quack	QuackObservable.h	/^	virtual void quack(){}$/;"	f	class:QuackObservable
+quack	RedHeadDuck.h	/^	void quack()$/;"	f	class:RedHeadDuck
+quack	RubberDuck.h	/^	void quack()$/;"	f	class:RubberDuck
+quackers	Flock.h	/^	list<Quackable *> quackers;$/;"	m	class:Flock
+registerObserver	DuckCall.h	/^	void registerObserver(Observer *observer)$/;"	f	class:DuckCall
+registerObserver	Flock.h	/^	void registerObserver(Observer *observer)$/;"	f	class:Flock
+registerObserver	GooseAdapter.h	/^	void registerObserver(Observer *observer)$/;"	f	class:GooseAdapter
+registerObserver	MallarDuck.h	/^	void registerObserver(Observer *observer)$/;"	f	class:MallarDuck
+registerObserver	Observable.h	/^	void registerObserver(Observer *observer)$/;"	f	class:Observable
+registerObserver	QuackCount.h	/^	void registerObserver(Observer *observer)$/;"	f	class:QuackCount
+registerObserver	RedHeadDuck.h	/^	void registerObserver(Observer *observer)$/;"	f	class:RedHeadDuck
+registerObserver	RubberDuck.h	/^	void registerObserver(Observer *observer)$/;"	f	class:RubberDuck
+simulate	DuckSimulator.h	/^	void simulate(AbstructDuckFactory *duckFactory)$/;"	f	class:DuckSimulator
+simulate	DuckSimulator.h	/^	void simulate(Quackable *duck)$/;"	f	class:DuckSimulator
+sources	Makefile	/^sources := $(PWD)$/;"	m
+update	Quackologist.h	/^	void update(QuackObservable *duck)$/;"	f	class:Quackologist

@@ -1,0 +1,46 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CC	Makefile	/^CC = c++$/;"	m
+DEP	Makefile	/^DEP := $(OBJ:.o=.d)$/;"	m
+NYStyleCheesePizza	nystylecheesepizza.h	/^	NYStyleCheesePizza()$/;"	f	class:NYStyleCheesePizza
+NYStyleCheesePizza	nystylecheesepizza.h	/^class NYStyleCheesePizza: public Pizza$/;"	c
+NYStyleClamPizza	nystyleclampizza.h	/^	NYStyleClamPizza()$/;"	f	class:NYStyleClamPizza
+NYStyleClamPizza	nystyleclampizza.h	/^class NYStyleClamPizza: public Pizza$/;"	c
+NYStylePepperoniPizza	nystylepepperonipizza.h	/^	NYStylePepperoniPizza()$/;"	f	class:NYStylePepperoniPizza
+NYStylePepperoniPizza	nystylepepperonipizza.h	/^class NYStylePepperoniPizza: public Pizza$/;"	c
+NYStylePizzaStore	nystylepizzastore.h	/^class NYStylePizzaStore: public PizzaStore$/;"	c
+NYStyleVegglePizza	nystylevegglepizza.h	/^ 	NYStyleVegglePizza()$/;"	f	class:NYStyleVegglePizza
+NYStyleVegglePizza	nystylevegglepizza.h	/^class NYStyleVegglePizza: public Pizza$/;"	c
+OBJ	Makefile	/^OBJ := $(SRC:%.cpp=%.o)$/;"	m
+Pizza	pizza.h	/^class Pizza$/;"	c
+PizzaStore	pizzastore.h	/^class PizzaStore$/;"	c
+SRC	Makefile	/^SRC := $(notdir $(files))$/;"	m
+SimplePizzaFactor	simplepizzafactor.h	/^class SimplePizzaFactor$/;"	c
+TARGET	Makefile	/^TARGET = factor$/;"	m
+__CHEESE_PIZZA_H__	nystylecheesepizza.h	/^#define __CHEESE_PIZZA_H__$/;"	d
+__CLAM_PIZZA_H__	nystyleclampizza.h	/^#define __CLAM_PIZZA_H__$/;"	d
+__MY_STYLE_PIZZA_STORE_H__	nystylepizzastore.h	/^#define __MY_STYLE_PIZZA_STORE_H__$/;"	d
+__PEPPERONI_PIZZA_H__	nystylepepperonipizza.h	/^#define __PEPPERONI_PIZZA_H__$/;"	d
+__PIZZA_H__	pizza.h	/^#define __PIZZA_H__$/;"	d
+__PIZZA_STORE_H__	pizzastore.h	/^#define __PIZZA_STORE_H__$/;"	d
+__SIMPLE_PIZZA_FACTOR_H__	simplepizzafactor.h	/^#define __SIMPLE_PIZZA_FACTOR_H__$/;"	d
+__VEGGLE_PIZZA_H__	nystylevegglepizza.h	/^#define __VEGGLE_PIZZA_H__$/;"	d
+bake	pizza.cpp	/^void Pizza::bake()$/;"	f	class:Pizza
+box	pizza.cpp	/^void Pizza::box()$/;"	f	class:Pizza
+createPizza	nystylepizzastore.cpp	/^Pizza *NYStylePizzaStore::createPizza(const string &type)$/;"	f	class:NYStylePizzaStore
+createPizza	simplepizzafactor.cpp	/^Pizza *SimplePizzaFactor::createPizza(const string type)$/;"	f	class:SimplePizzaFactor
+cut	pizza.cpp	/^void Pizza::cut()$/;"	f	class:Pizza
+dough	pizza.h	/^	string dough;$/;"	m	class:Pizza
+files	Makefile	/^files := $(wildcard $(PWD)\/*.cpp)$/;"	m
+getName	pizza.cpp	/^string Pizza::getName()$/;"	f	class:Pizza
+main	main.cpp	/^int main(void)$/;"	f
+name	pizza.h	/^	string name;$/;"	m	class:Pizza
+orderPizza	pizzastore.cpp	/^Pizza *PizzaStore::orderPizza(const string &type)$/;"	f	class:PizzaStore
+pizza	simplepizzafactor.h	/^	Pizza *pizza;$/;"	m	class:SimplePizzaFactor
+prepare	pizza.cpp	/^void Pizza::prepare()$/;"	f	class:Pizza
+sauce	pizza.h	/^	string sauce;$/;"	m	class:Pizza
+sources	Makefile	/^sources := $(PWD)$/;"	m
